@@ -1,3 +1,4 @@
+/* General table styling */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -32,7 +33,13 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #e0e0e0;
 }
-/* Change the text color to red */
-table {
-  color: red;
+
+/* Change the text color to red for league tables */
+table.league-table {
+    color: red;
+}
+
+/* Change the text color to green for league tables */
+table.league-table td {
+    color: green;
 }
